@@ -1,0 +1,615 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    background-attachment: fixed;
+    background-image: url(https://codelab.uz/assets/img/hero-bg.webp);
+}
+nav {
+    padding: 20px 30px;
+    padding-top: 25px;
+    background-color: #fff;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul img {
+    width: 200px;
+    padding-left: 100px;
+    position: absolute;
+}
+.li{
+    margin-left: 700px;
+    display: flex;
+    list-style-type: none;
+}
+.li li {
+    margin-left: 50px;
+}
+.li button {
+    padding: 10px 25px;
+    border: none;
+    background-color: #2487ce;
+    margin-left: 30px; 
+    margin-top: -10px;
+    border-radius: 5px; 
+    color: #fff; 
+    font-size: 14px;
+    width: 160px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+.li button:hover{
+    background-color: #3092d7; 
+}
+.li a {
+    text-decoration: none;
+    color: #555;
+    font-family: sans-serif;
+    transition: all 450ms ease-in-out;
+}
+.li a:hover {
+    color:#2487ce
+}
+.the h1 {
+    text-align: center;
+    color: #124265;
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #124265;
+    font-family: "Poppins", sans-serif;
+}
+.theich {
+    padding-top: 150px;
+}
+.theich h2 {
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 25px;
+    color: #555;
+    margin-top: 10px;
+}
+.theich button {
+    margin-left: 630px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #2487ce; 
+    border-radius: 5px; 
+    color: #fff; 
+    font-size: 14px;
+    width: 250px;
+    height: 50px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+}
+.theich button:hover {
+    background-color: #3092d7;
+}
+.the {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 800px;
+}
+#i1 {
+    font-size: 20px;
+    border: 3.5px solid #2487ce;
+    color: #2487ce;
+    margin-bottom: 30px;
+}
+p {
+    line-height: 25px;
+    font-family:sans-serif;
+}
+.divlar {
+    display: flex;
+    justify-content:space-evenly
+}
+.div1,.div2,.div3,.div4{
+    width: 250px;
+    height: 180px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px 30px;
+    margin-top: 80px;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 350ms ease-in-out;
+}
+.h41 {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+} 
+.div1:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);
+    transition-duration: 350ms;
+}
+.div2:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);
+    transition-duration: 350ms;
+}
+.div3:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);
+    transition-duration: 350ms;
+}
+.div4:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);
+    transition-duration: 350ms;
+}
+.nega {
+    color:#124265;
+    font-family: sans-serif;
+    padding-top: 80px;
+}
+.negaall {
+    text-align: center;
+}
+.negaall p {
+    font-size: 14px;
+    color: #919191;
+    margin-top: 20px; 
+    letter-spacing: 1px; 
+}
+.matn {
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.h4lar {
+    font-size: 18px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    color: #444444;
+    margin-bottom: 15px;
+}
+#ilar4 {
+    color: #2487ce;
+    margin-right: 10px;
+}
+.matncha1 {
+    width: 620px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+.p1 {
+    line-height: 28px;
+    color:  #555;
+}
+.matnchalar {
+    display: flex;
+}
+.matnchalar2 {
+    margin-left: -50px;
+}
+.iconlar {
+    width: 100%;
+    height: 150px;
+    background-color: #f8fbfe;
+}
+#doppi {
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#doppi:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);
+}
+#avvali {
+    margin-top: 20px;
+    margin-left: 150px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+#avvali:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);
+}
+#inn {
+    margin-top: 45px;
+    margin-left: 400px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100px;
+    height: 60px;
+}
+#inn:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);
+}
+#uz {
+    margin-top: 20px;
+    margin-left: 650px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100px;
+    height: 120px;
+}
+#uz:hover {
+    filter: contrast(1);        
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1);  
+}
+#essi {
+    margin-top: 20px;
+    margin-left: 850px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 90px;
+    height: 100px;
+}
+#essi:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1); 
+}
+#nimadur {
+    margin-top: 20px;
+    margin-left: 1050px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 70px;
+    height: 90px;
+}
+#nimadur:hover {
+    filter: contrast(1);
+    transform: translateY(-8px);
+    transition-duration: 350ms;
+    transform: scale(1.1); 
+}
+.parent {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       position: relative;
+       width: 420px;
+       height: 440px;
+       background-image: url(https://codelab.uz/assets/img/portfolio/uztrans.webp);
+       background-size: cover;  
+   }
+.shadow {
+       justify-content: center;
+       align-items: center;
+       color: white;
+       width: 80%;
+       height: 80%;
+       background: #079ce0b6;
+       opacity: 0;
+       transition: 0.4s ease;
+   }
+.parent:hover .shadow {
+       width: 100%;
+       height: 100%;
+       opacity: 1;
+   }
+.parent2:hover .shadow {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.parent3:hover .shadow {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+   .shadow::before {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    transition: all 0.5s ease 1s;
+    z-index: 9994;
+}
+.shadow::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transition: all 0.5s ease 1s;
+    z-index: 9994;
+}
+.h11 {
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 100px;
+    color:#124265;
+    background-color:#fff;
+   }
+.qilganish,.qilganish3,.qilganish2 {
+    background-color: #fff;
+    width: 100%;
+}
+.qilinganishlar {
+    display: flex;
+}
+.shadow a {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding-left:130px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: all 0.4s ease;
+}
+.shadow a:hover {
+    color:#fff
+}
+.shadow h2 {
+    padding-top: 180px;
+    padding-left: 160px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.shadow .a3 {
+    padding-left: 145px;
+}
+.shadow .a5 {
+    padding-left:145px ;
+}
+.shadow .a6 {
+    padding-left: 160px;
+}
+.shadow .h23 {
+    padding-left:170px ;
+}
+.shadow .h22 {
+    padding-left:170px;
+}
+.shadow .h26 {
+    padding-left: 140px;
+}
+#link {
+    padding-right: 10px;
+}
+.parent2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 420px;
+    height: 440px;
+    background-image: url(https://codelab.uz/assets/img/portfolio/avvali.webp);
+    background-size: cover;  
+   }
+   .parent3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    position: relative;
+    background-image: url(https://codelab.uz/assets/img/portfolio/pfl.webp);
+    height: 440px;
+    background-size: cover;  
+   }
+.qilinganishlar2 {
+    display: flex;
+}
+.mashuxammasi {
+    width: 100%;
+    height: 1080px;
+    background-color: #fff;
+}
+.parent4 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 420px;
+    height: 440px;
+    background-image: url(https://codelab.uz/assets/img/portfolio/magfin.webp);
+    background-size: cover;  
+   }
+.parent5 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    position: relative;
+    background-image: url(https://codelab.uz/assets/img/portfolio/advice.webp);
+    height: 440px;
+    background-size: cover;  
+   }
+.parent6 {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 420px;
+    height: 440px;
+    background-image: url(https://codelab.uz/assets/img/portfolio/migo.webp);
+    background-size: cover;  
+   }
+.parent4:hover .shadow {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.parent5:hover .shadow {
+ width: 100%;
+ height: 100%;
+ opacity: 1;
+}
+.parent6:hover .shadow {
+ width: 100%;
+ height: 100%;
+ opacity: 1;
+}
+.aloqa {
+    width: 100%;
+    height: 600px;
+    background-color: #f8fbfe;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}
+.h1aloqa {
+    color: #124265;
+    text-align: center;
+    padding-top: 80px;
+    font-family: sans-serif ;
+}
+.adress {
+    margin-top: 80px;
+    margin-left: 100px;
+    position: absolute;
+}
+.all {
+    display: flex;
+}
+.telall,.telegall,.emailall {
+    display: flex;
+}
+#tel {
+    color:#2487ce;
+    background-color: #e3f0fa;
+    padding: 14px;
+    border-radius: 5px;
+}
+.telh4 {
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #124265;
+}
+.nomer {
+    margin-left: 15px;
+}
+.nomer p {
+    color: #2487ce;
+    font-size: 15px;
+}
+.telall,.telegall,.emailall{
+    padding: 15px 0;
+}
+.codelab {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: sans-serif ;
+    color: #fff;
+}
+.codelabp {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+.haqida {
+    border:none;
+    margin-top: 80px;
+    position: relative;
+    margin-left: 450px;
+    width: 1000px;
+    height: 320px;
+    background-color: #2487ce;
+}
+.qongir {
+    background-color: #2487ce;
+    border: 2px solid #fff;
+    color: #fff;
+    padding:10px 30px; 
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 530;
+    margin-top: 20px;
+    margin-left: 390px;
+    transition: all 350ms ease-in-out;
+}
+.qongir:hover {
+    background-color: #fff;
+    color: #2487ce;
+}
+#tel:hover {
+    background-color: #2487ce;
+    color: #fff;
+}
+#iconcha {
+    margin-left: 10px;
+    color: #2487ce;
+    margin-top: 10px;
+}
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+footer p {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+#sticky {
+    position: fixed;
+    margin-left: 1460px;
+    margin-top: 680px;
+    color:#e3f0fa;
+    background-color: #2487ce;
+    padding: 12px;
+    border-radius: 5px;
+    z-index: +1 ;
+    border:none;
+    transition: all 250ms ease-in-out;
+    font-size: 20px;
+}
+#sticky:hover {
+    background-color: #3092d7;
+}
