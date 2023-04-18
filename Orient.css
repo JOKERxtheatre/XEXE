@@ -1,0 +1,501 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 1000px;
+    overflow-x: hidden;
+}
+.menu {
+    display: flex;
+}
+.menu2 {
+    position: fixed;
+    display: flex;
+}
+.bulut {
+    position: absolute;
+    z-index: -1;
+    width: 700px;
+    height: 350px;
+    animation-name: bulut;
+    margin-left: -100px;
+    margin-top: -100px;
+    animation-duration: 45s;
+    opacity: 0.5;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.bulut2 {
+    position: absolute;
+    z-index: -1;
+    width: 700px;
+    height: 350px;
+    animation-name: bulut;
+    margin-left: 300px;
+    margin-top: -100px;
+    animation-duration: 55s;
+    opacity: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.bulut3 {
+    position: absolute;
+    z-index: -1;
+    width: 700px;
+    height: 350px;
+    animation-name: bulut;
+    margin-left: -300px;
+    margin-top: -100px;
+    animation-duration: 55s;
+    opacity: 0.5;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.bulut4 {
+    position: absolute;
+    z-index: -1;
+    width: 700px;
+    height: 350px;
+    animation-name: bulut;
+    margin-left: -800px;
+    margin-top: -100px;
+    animation-duration: 45s;
+    opacity: 0.5;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes bulut {
+    0% {
+        left:0;
+    }
+    100% {
+        left: 2500px;
+    }
+
+}
+.back {
+    width: 100%;
+    height: 800px;
+    position: fixed;
+    background-image: url(https://orient-bc.uz/wp-content/uploads/orient-bc-welcome-img1.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+.header {
+    background-color: rgba(9, 23, 34, 0.5);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.header h1 {
+    font-size: 59px;
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 200px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header h3 {
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+.logo {
+    width: 300px;
+    height: 80px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.ul1 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+li {
+    list-style-type: none;
+    margin-left: 45px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #ebebeb;
+    transition: 0.3s ease;
+}
+li:hover {
+    cursor: pointer;
+    color: #ae9073;
+}
+.btn-1 {
+    width: 170px;
+    height: 65px;
+    background-color: #ae9073;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 100px;
+    margin-top: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.btn-1:hover {
+    background-color: #766452;
+}
+.uz {
+    text-align: center;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-left: 1410px;
+    font-weight: 500;
+    position: absolute;
+    transition: all 350ms ease;
+    background:none;
+    border: none;
+}
+.uz:hover {
+    background-color: #fff;
+    color: #555;
+}
+.uz h4 {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 25px;
+} 
+.uzich {
+    opacity: 0;
+    transition: 350ms;
+    padding: 5px;
+    margin-top: 5px;
+}
+.uzich2 {
+    opacity: 0;
+    transition: 350ms;
+    padding: 5px;
+}
+.op1 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.op2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.uzich:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.uzich2:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.fa-solid {
+    margin-left: -20px;
+    margin-right: 15px;
+}
+#i2 {
+    margin-left: 10px;
+    margin-right: -15px;
+}
+
+.tolqin {
+    margin-top:210px;
+}
+.section {
+    height: 800px;
+    width: 100%;
+    background-color: #fff;
+}
+.section h1 {
+    font-size: 59px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Inconsolata', monospace;
+}
+.section .p1 {
+    text-align: center;
+    width: 800px;
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 1px;
+    margin-left: 350px;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-top: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+.logocube {
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 700px;
+}
+.malumot {
+    display: flex;
+}
+.malumot h4 {
+    font-size: 24px;
+    font-family: 'Chivo Mono', monospace;
+    text-align: center;
+    color: #555;
+}
+.divlar {
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.p2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #333;
+    opacity: 0.8;
+}
+.section2 {
+    height: 1100px;
+    width: 100%;
+    background-color: #ae9073;
+}
+.section2 h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #333;
+    margin-top: 50px;
+}
+.imglar {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: -10px;
+}
+.div2 img {
+    margin-top: 5px;
+}
+.divcha {
+    display: flex;
+    width: 600px;
+    margin-left: 50px;
+}
+.h3lar {
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+.div1,.div2,.div3{
+    margin-top: 80px;
+    margin-left: 100px;
+    display: flex;
+}
+.div2,.div3 {
+    margin-top: 50px;
+}
+.divchacha {
+    margin-left: 50px;
+}
+.plar {
+    font-size: 15px;
+    margin-top: 20px;
+    color: #333;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    line-height: 25px;
+    opacity: 0.8;
+}
+.ariza {
+    width: 220px;
+    height: 60px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.20;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    background-color: #766452;
+    border: none;
+    margin-top: 80px;
+    margin-left: 650px;
+    transition: all 0.4s ease;
+}
+.ariza:hover {
+    background-color: #95816a;
+}
+.tolqin3 {
+    margin-top: -50px;
+}
+.section3 {
+    height: 1000px;
+    background-color: #fff;
+}
+.section3 h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 600;
+    color: #333 ;
+    letter-spacing: 1px;
+}
+.section3 p {
+    text-align: center;
+    width: 750px;
+    margin-left: 380px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    opacity: 0.8;
+    margin-bottom: 200px;
+}
+.slayd1,.slayd2,.slayd3,.slayd4 {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -5px;
+    background-color: #f3f2f2;
+    transition: all 0.4s ease;
+}
+.slayd1:hover,.slayd2:hover,.slayd3:hover,.slayd4:hover {
+    background-color: #e0e0e0;
+    color: #333;
+}
+.slayd1 {
+    padding: 25px 120px;
+}
+.slayd2 {
+    padding: 25px 120px;
+}
+.slayd3 {
+    padding: 25px 100px;
+}
+.slayd4 {
+    padding: 25px 95px;
+}
+.slaydlar{
+    margin-left: 190px;
+}
+.section3 img {
+    width: 550px;
+    height: 350px;
+    margin-left: 480px;
+    margin-top: 100px;
+}
+ .carousel img   {
+    width: 400px;
+    height: 300px;
+ }
+.section6 {
+    height: 900px;
+    background-color: #fff;
+ }
+.section6 h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+}
+.banan {
+    display: flex;
+    margin: 0 80px auto;
+}
+.bananlar {
+    width: 120px;
+    height: 120px;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+.bananlar2 {
+    width: 180px;
+    height: 180px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.banan h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-family: sans-serif;
+    font-size: 19.2px;
+    font-weight: 800;
+    color: #333;
+}
+.logoorta {
+    width: 80px;
+    height: 80px;
+    margin-top: 80px;
+    margin-left: 730px;
+}
+.text h2 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+    padding-top: 100px;
+}
+.section7 {
+    height: 1500px;
+    background-color: #fff;
+}
+.text p {
+    text-align: center;
+    width: 600px;
+    margin-left: 460px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #333;
+    opacity: 0.8;
+}
+.xarita {
+    margin-top: 50px;
+}
+.text2 h1 {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+    padding-top: 100px;
+}
+.icons {
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 650px;
+}
+.fa-brands {
+    color: #c0c0c0;
+    margin-left: 30px;
+    margin-top: 10px; 
+    transition: all 0.4s ease;
+    cursor: pointer; 
+}
+.fa-brands:hover {
+    color: #d1d1d1;
+    cursor: pointer;
+}
